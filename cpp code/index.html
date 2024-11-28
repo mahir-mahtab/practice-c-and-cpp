@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+        
+margin: 0%;
+padding: 0%;
+
+        }
+        body{
+            height: 100%;
+            width: 100%;
+        
+
+        }
+        main{
+            justify-content: center;
+            display:flex ;
+            align-items: center;
+            margin-top: 15%;
+        }
+        .m{
+            
+            justify-content: center;
+            align-items: center;
+
+        }
+        .rec{
+            height: 100px;
+            width: 100px;
+            border: 3px solid black;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+
+    </style>
+</head>
+
+<body>
+    <main>
+    <div class="m">
+    <div id="sq1" class="rec">1</div>
+    <div id="sq2" class="rec">2</div>
+    </div>
+    <div class="m">
+        <div id="sq3" class="rec">3</div>
+        <div id="sq4" class="rec">4</div>
+    </div>
+</main>
+    <script>
+        let x = document.getElementById("sq1");
+        x.addEventListener("mouseenter",function(){
+            let r = Math.floor(Math.random()*100);
+            x.innerHTML=r
+        })
+        x.addEventListener("mouseleave",function(){
+            x.innerHTML="1";
+        })
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>
