@@ -1,0 +1,10 @@
+115 mahir 1 4.00 4.00 4.00 4.00 male ctg
+100 kkop 0 89 23 56 70 female pop
+
+
+
+
+
+
+
+
